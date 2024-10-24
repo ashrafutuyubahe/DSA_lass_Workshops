@@ -9,7 +9,15 @@ char studentClass;
 int studentAge;
 cout << "+++++++++++++++++++++++++++++ Here is  student management system +++++++++++++++++++++++"<< endl;
 
-cin
+cout << "Einter the student name" <<endl;
+getLine(cin,studentName);
+
+cout << "Einter the student name" <<endl;
+getLine(cin,studentName);
+
+cout << "Einter the student name" <<endl;
+cin >> ;
+
 
 
 
