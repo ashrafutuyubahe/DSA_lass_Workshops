@@ -1,75 +1,81 @@
-#included<iostream>
+#include <iostream>
+#include <string.h>
+
 using namespace std;
 
+class Student
+{
 
-int  main (){
+private:
+    string studName;
+    int studAge;
+    char studClass;
 
-char studentName[20];
-char studentClass;
-int studentAge;
-cout << "+++++++++++++++++++++++++++++ Here is  student management system +++++++++++++++++++++++"<< endl;
+public:
+    Student() {};
 
-cout << "Einter the student name" <<endl;
-getLine(cin,studentName);
+    Student(string studName, int studAge, char studClass)
+    {
+        studName = studName;
+        studAge = studAge;
+        studClass = studClass;
+    }
 
-cout << "Einter the student name" <<endl;
-getLine(cin,studentName);
+    string getStudName()
+    {
+        return studName;
+    }
 
-cout << "Einter the student name" <<endl;
-cin >> ;
+    char getStudClass()
+    {
+        return studClass;
+    }
 
+    int getStudAge()
+    {
+        return studAge;
+    }
 
+    void setStudName(string newStudName)
+    {
+        studName = newStudName;
+    }
 
+    void setStudAge(int newStudAge)
+    {
+        studAge = newStudAge;
+    }
+
+    void setStudClass(char newStudClass)
+    {
+        studClass = newStudClass;
+    }
+};
+
+int main()
+{
+
+    string studentName;
+    char studentClass;
+    int studentAge;
+    cout << "+++++++++++++++++++++++++++++ Here is  student management system +++++++++++++++++++++++" << endl;
+
+    cout << "Einter the student name" << endl;
+    getline(cin, studentName);
+
+    cout << "Enter the student class(a,b or c)" << endl;
+    cin >> studentClass;
+
+    cout << "Enter the student age" << endl;
+    cin >> studentAge;
+
+    Student studentInstance;
+
+    studentInstance.setStudClass(studentClass);
+    studentInstance.setStudAge(studentAge);
+    studentInstance.setStudName(studentName);
+
+    cout << "Here is the current status of the record in database" << "student name " << studentInstance.getStudName();
 
     return 0;
-}
-
-
-class Student{
-
-  private:
-
-   char  studName[20]="Aisha";
-  int studAge=20;
-  char studClass='a';
-
-  public:
-
- Student(char studName,int studAge,char studClass){};
-
-   Student(char studName,int studAge,char studClass)
-  {
-     studAge=studName;
-     studAge=studAge;
-     studClass=studClass;
-
-  } 
-   
-   void getStudName(){
-    return studName;
-   }
-
-   void getStudClass(){
-    return studClass;
-   }
-
- void getStudAge(){
-    return StudAge;
-   }
-
- void setStudName(char newStudName){
-     studName=newStudName;
-   }
-
- void setStudAge(int newStudAge){
-     studAge=newStudAge;
-   }
-
- void setStudClass(char newStudClass){
-     studClass=newStudClass;
-   }
-
- 
- 
-   
 }
