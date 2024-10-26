@@ -3,6 +3,8 @@
 
 using namespace std;
 
+
+//Encapsulation principle
 class Student
 {
 
@@ -19,6 +21,10 @@ public:
         studName = studName;
         studAge = studAge;
         studClass = studClass;
+    }
+
+    void StudentBehavior(){
+        cout << "he/she is good student"<< endl;
     }
 
     string getStudName()
@@ -52,6 +58,26 @@ public:
     }
 };
 
+
+//Inheritance and POlymorhism
+class Student_Kalim:  Student{
+
+private:
+    string studName;
+    int studAge;
+    char studClass;
+    int studentMarks;
+
+// polymorphism (overring the methods)
+public:
+  void StudentBehavior(){
+    cout << "the student is introvert and humble" <<endl;
+    cout << "do you agree? " << endl;
+  }
+ 
+};
+
+
 int main()
 {
 
@@ -75,7 +101,10 @@ int main()
     studentInstance.setStudAge(studentAge);
     studentInstance.setStudName(studentName);
 
-    cout << "Here is the current status of the record in database" << "student name " << studentInstance.getStudName();
+    cout << "Here is the current status of the record in database" << "student name " << studentInstance.getStudName() << ", student age " << studentInstance.getStudAge()<< "and  the student class is " << studentInstance.getStudClass() <<endl;; 
+    studentInstance.StudentBehavior();
+    
+
 
     return 0;
 }
