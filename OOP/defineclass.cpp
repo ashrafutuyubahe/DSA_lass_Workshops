@@ -45,18 +45,18 @@ public:
 int main()
 {
 
-    Rectangle rect(12,20);
+        
     
-    cout << rect.area() << endl;
+    
     Rectangle rect2; // Rectangle area={10,20} or Rectangle rect{20,20}
-
+   
     rect2.setHeight(20);
     rect2.setWidth(12);
+    
     Rectangle *rect3 = new Rectangle(20,20);
    
     cout << "new  area  is " << rect3->area() <<endl;
-    cout << "area 2 is " << rect2.area();
-
+   
 
 
 }

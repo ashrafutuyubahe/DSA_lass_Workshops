@@ -3,7 +3,12 @@
 using namespace  std;
 
 
+
+
+
 int fib(int n){
+
+    //base
     if(n==0){
         return 0;
     }
@@ -15,6 +20,7 @@ int fib(int n){
     //hypothosis stage
 
     // recursinve stage and calcualtion
+    cin.ignore();
  
     return  fib(n-1) + fib(n-2);   
     
