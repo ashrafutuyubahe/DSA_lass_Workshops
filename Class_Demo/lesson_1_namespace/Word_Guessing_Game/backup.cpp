@@ -93,7 +93,7 @@ void printOnConsoleMENU() {
 
         switch (choice) {
             case 1:
-                wordList = {"Rabbit"};
+                wordList = {"Rabbit,hen"};
                 break;
             case 2:
                 wordList = {"Kigali", "Musanze", "Rubavu", "Huye"};
