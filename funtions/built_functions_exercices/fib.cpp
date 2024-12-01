@@ -1,27 +1,3 @@
-#include <iostream>
-#include <cctype>
-using namespace std;
-
-int printMultipleOf10(int n)
-{
-
-    if ((n % 10) != 0)
-    {
-
-        cout << n << endl;
-    }
-        
-  return n;
-  n -=10;
-  printMultipleOf10(n);
-
-
-}
-
-int main()
-{
-
-  int first=60;
-    cout << printMultipleOf10(first);
-    return 0;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f332f8da2762b979ddbbcd15e11ed1aaa3eace4b8165d6873325239d6baac639
+size 298

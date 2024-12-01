@@ -1,23 +1,3 @@
-#include<iostream>
-using namespace std;
-int main()
-{
-
-    int numbers[]={1,2,3,4,5};
-
-    // if(isSorted(a,5)){
-    //     cout << "Sorted "<< endl;
-
-    // } else{
-    //     cout <<"No sorted" <<endl;
-
-    // }
-
-    for(int i=0;i<5;i++){
-        // cout << numbers[i] <<endl;
-        cout << *(numbers +i) <<endl;
-    }
-
-
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7fd712d54c4221e9c178d89a051190e28dc4882c45598ed2889178b29b98172
+size 327

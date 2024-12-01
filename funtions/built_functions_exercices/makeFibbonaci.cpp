@@ -1,34 +1,3 @@
-#include<iostream>
-
-using namespace  std;
-
-
-
-
-
-int fib(int n){
-
-    //base
-    if(n==0){
-        return 0;
-    }
-    //base case
-    if(n==1){
-        return 1;
-    }
-
-    //hypothosis stage
-
-    // recursinve stage and calcualtion
-    cin.ignore();
- 
-    return  fib(n-1) + fib(n-2);   
-    
-}
-int main(){
-
-    cout << "here is the series " <<fib(2) <<endl;
-    
-}
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:9afc8a3f8a23f8c1e65ab9920704a2ec93dc563cd47d451d426c431d6ed815eb
+size 368

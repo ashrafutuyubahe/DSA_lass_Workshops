@@ -1,19 +1,3 @@
-#include<iostream>
-#include<cctype>
-using namespace std;
-
-int computePower(int x,int n){
-    if(n==0){
-        return n;
-    }
-
-   int smallNumber=  computePower(x,n-1);
-
-   return x* computePower(x,n-1);;
-}
-
-int main(){
-
-    cout <<  computePower(2,2) << endl;
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f8fa6381439851488b9864d56bd2843ca2ba576a864fbe4c7f195b60b109311
+size 264

@@ -1,26 +1,3 @@
-#include<iostream>
-#include<cctype>
-using namespace std;
-
-int main(){
-
-    string input;
-    bool isWordSrting=false;
-
-    cout <<"Enter the input to check if it's string" << endl;
-    cin >> input;
-    
-
-    for(char charInWord:input){
-        if(isalpha(charInWord)){
-          isWordSrting=true;
-          break;
-        }
-    }
-
-    if(isWordSrting){
-          cout << "the input is   contains letter" <<endl;
-    }else{
-        cout <<" the input  does not contain  letter"  << endl; 
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:958cefb150d528242419fdddf4ae378d8b3913913f4cf34c02495c09414b97f3
+size 497

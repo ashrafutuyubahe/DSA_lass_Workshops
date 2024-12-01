@@ -1,27 +1,3 @@
-#include<iostream>
-using namespace std;
-
-int main() {
-    int n = 3;  
-    int arrayNumbers[3] = {20, 56, 4};  
-
-     int j;
-    for(int i =1; i < n; i++) {
-         int key= arrayNumbers[i];
-            i= i-1;
-            while(j>=0 && arrayNumbers[j]> key){
-                      arrayNumbers[j+1]= arrayNumbers[j];
-                      j--;
-            }
-
-            arrayNumbers[j+1]= key;
-    }
-    
-
-  
-    for(int num : arrayNumbers) {
-        cout << num << endl;
-    }
-
-    return 0;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd3ef9eb72ba04ca25b3aae6a4f8f21f71796006f918a4d2cc69dc1ba65f2db8
+size 498

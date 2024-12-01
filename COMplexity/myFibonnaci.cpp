@@ -1,20 +1,3 @@
-#include<iostream>
-
-using namespace std;
-
-int printfactorial(int n){
-//base case
-    if(n==0){
-        return 0;
-    }
-
-   
-     
-     //recursive stage
-     return printfactorial(n-1) + printfactorial(n-2);
-}
- int main(){
-
-printfactorial(1);
-    return 0;
- }
+version https://git-lfs.github.com/spec/v1
+oid sha256:436aee42d7ca6ff3a0260f5f5a6db3d841cc50dd3d097250f14793c307288436
+size 259

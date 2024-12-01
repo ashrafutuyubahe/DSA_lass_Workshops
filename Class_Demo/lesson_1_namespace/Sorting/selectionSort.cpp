@@ -1,35 +1,3 @@
-#include <iostream>
-using namespace std;
-
-void selectionSort(int a[], int n) {
-    for (int i = 0; i < n - 1; i++) {  
-        int targetIndex = i;  
-        
-       
-        for (int j = i + 1; j < n; j++) {
-            if (a[j] < a[targetIndex]) {
-                targetIndex = j; 
-            } 
-        }
-
-      
-        if (targetIndex != i) {
-            swap(a[i], a[targetIndex]);
-        }
-    }
-}
-
-int main() {
-    int a[] = {5, 3, 8, 6, 2};
-    int n = sizeof(a) / sizeof(a[0]);
-
-    selectionSort(a, n);
-
-   
-    cout << "Sorted array: ";
-    for (int i = 0; i < n; i++) {
-        cout << a[i] << " ";
-    }
-
-    return 0;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef2e1535f3b58055677c9b1944180e8badf5c4a3f54f7e5d4d5d49cf5a99bf49
+size 637

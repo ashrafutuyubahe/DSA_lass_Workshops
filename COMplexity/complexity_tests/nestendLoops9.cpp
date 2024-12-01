@@ -1,20 +1,3 @@
-#include <iostream>
-
-using namespace std;
-
-int fibonacci(int n)
-{
-    if (n < 2)
-    {
-        return n;
-    }
-    return fibonacci(n - 1) + fibonacci(n - 2);
-}
-
-int main()
-{
-
-    cout << fibonacci(10) << endl;
-
-    return 0;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:99fca452a47b6182259ad963b171403e5b647df310d38db023b77de09a3b2f84
+size 228

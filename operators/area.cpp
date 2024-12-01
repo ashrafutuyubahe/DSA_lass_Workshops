@@ -1,21 +1,3 @@
-#include <iostream>
-using namespace std;
-#define PI 3.14;
-const double PI2 = 3.24;
-
-double computerAArea(double radius)
-{
-    return radius * PI;
-}
-
-int main()
-{
-    double radius;
-
-    cout << "Enter the radius :" << endl;
-    cin >> radius;
-
-    cout << "the area is " << computerAArea(radius);
-
-    return 0;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9cd500c2633337759e2c9c8a771f49f8cac71c62e69086cbffc98ff7ed5e7dda
+size 313

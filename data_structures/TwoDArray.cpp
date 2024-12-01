@@ -1,24 +1,3 @@
-#include<iostream>
-using namespace std;
-
-
-int main(){
-
-    int scores[][4]={
-        10,11,12,13,
-        14,15,16,17,
-        18,19,20,21
-    };
-
-
-    for(int r=0;r<3;r++){
-        for(int c=0;c<4;c++){
-            cout << scores[r][c];
-        }
-    cout << " ";
-    }
-    
-
-
-    
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7689dbbbb918a9203feb89a5a55c326979be1b78f289774ed6d92c9f45f742c4
+size 284

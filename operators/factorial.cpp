@@ -1,19 +1,3 @@
-#include<iostream>
-using namespace std;
-
-int sumDigits(int x){
-    if(x>10){
-        return x;
-    }
-
-    int smallNUmber= sumDigits(x-1);
-    return x%10 + smallNUmber;
-}
-
-int main(){
-
-cout << "the sum of digits is " << sumDigits(23);
-
-return 0;
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:58029c93bad8c0b33532faed43f4930251677cc94b89479e63aa4552b3d35bdc
+size 250

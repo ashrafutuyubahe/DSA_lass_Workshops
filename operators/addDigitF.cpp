@@ -1,19 +1,3 @@
-#include <iostream>
-using namespace std;
-
-int sumOfDigits(int number)
-{
-    return radius * PI;
-}
-
-int main()
-{
-    int number;
-
-    cout << "Enter the number :" << endl;
-    cin >> number;
-
-    cout << "the sum of digit in "<< number<<" is" << sumOfDigits(number);
-
-    return 0;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0967daea9b3ba27a92df28558ed8dae97249314c7643c89c9492d2ca2744b763
+size 282

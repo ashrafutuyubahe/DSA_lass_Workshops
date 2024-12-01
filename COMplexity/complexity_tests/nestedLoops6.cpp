@@ -1,18 +1,3 @@
-#include <iostream>
-using namespace std;
-int fun6(int n)
-{
-    int i = 1, m = 0;
-    while (i < n)
-    {
-        m += 1;
-        i = i * 2;
-    }
-    return m;
-}
-// Testing Code
-int main()
-{
-    printf("N = 100, Number of instructions 0(log(n)) :: %d \n", fun6(100));
-    return 0;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b41c4431e3b31161fa736809e63cbc63a43f8134361e017470947784047c22c4
+size 284

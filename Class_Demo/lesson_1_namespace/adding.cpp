@@ -1,14 +1,3 @@
-#include<iostream>
-
-// using namespace std;
-
-int main(){
-
-    int a,b,sum;
-
-    std::cout << "please enter  2 numbers: ";
-    std::cin >> a >> b;
-    sum= a+b;
-
-    std::cout << "the sum is " << sum;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2429db1ee640eb05074e4f784ebde9d66ff35ddb5901ca3869acf03aca9a654c
+size 201

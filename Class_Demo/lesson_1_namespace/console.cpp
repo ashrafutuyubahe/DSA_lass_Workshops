@@ -1,16 +1,3 @@
-#include<iostream> 
- using namespace std;
-int main(){
-string name;
-int y1,y2,y3,y4;
-
-cout<< "enter you name"<<endl;
-getline(cin,name);
-cout << "your name is "<< name <<endl;
-cout<< "enter four memorable years "<<endl;
-
-cin >> y1>> y2 >> y3 >> y4;
-cout << "your input are " << y1 <<"," << y2 << "," << y3 << "," << y4  << ","<< endl;
-
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c58f70bc217bc1aaf3026330286ccebdcaeac7df5ba53f1d9dcdcf4f0e2ff444
+size 336

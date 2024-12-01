@@ -1,20 +1,3 @@
-#include <iostream>
-using namespace std;
-int fun4(int n)
-{
-    int i, j, m = 0;
-    for (i = 0; i < n; i++)
-    {
-        for (j = 0; j < i; j++)
-        {
-            m += 1;
-        }
-    }
-    return m;
-}
-// Testing Code
-int main()
-{
-    std::cout << "N = 100, Number of instructions O(n^2) :: "<< fun4 (100);
-        return 0;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ebc86e5e7fdd8e87b91669daba997ac25a531246b04167f3789727786a4fd8b5
+size 333

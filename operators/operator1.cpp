@@ -1,18 +1,3 @@
-#include<iostream>
-using namespace std;
-
-int main(){
-
-int a=181;
-
-int b=a>>1;
-int c=a>>2;
-int d=a<<2;
-
- 
-cout <<a <<endl;
-cout <<b <<endl;
-cout <<c <<endl;
-cout  << d <<endl;
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:891a8e7d9ed81bbd6c9ee1176c454f8f499183c532ae7333882966310f1067b6
+size 177

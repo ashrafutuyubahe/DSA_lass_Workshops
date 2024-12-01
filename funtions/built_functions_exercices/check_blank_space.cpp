@@ -1,31 +1,3 @@
-#include <iostream>
-#include <cctype>
-using namespace std;
-
-int main()
-{
-
-    string input;
-    bool isWordSrting = false;
-    bool contain_space = false;
-
-    cout << "Enter the input to check if it's string" << endl;
-    cin >> input;
-
-    for (char eachChar : input)
-    {
-        if (isblank(eachChar))
-        {
-            contain_space = true;
-        }
-    }
-
-    if (contain_space)
-    {
-        cout << "contai blank space " << endl;
-    }
-    else
-    {
-        cout << "does not contain blank space" << endl;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:097511ada5fd35a3c8f64935387b807fbbed6bdb551475d30c6bf7eca7fac76a
+size 528
